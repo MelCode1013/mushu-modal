@@ -14,7 +14,7 @@ This app featured my scarlet macaw Mushu and was built using JavaScript. Purpose
 ## Showcase
 Below I have a gif showcasing the frontend app and user interaction between the modals.<br /> <br />
 
-![](/img/Mushu-modal%20gif.gif)
+![](/img/Mushu-modal-interaction.gif)
 
 ## Motivation
 My motivation for building this is to showcase my parrot, first and foremost. But really, I wanted to show that I could build something with what I have learned using vanilla JavaScript, as simple as it may be. I am proud of this project because it is a mere stepping stone onto bigger things.
