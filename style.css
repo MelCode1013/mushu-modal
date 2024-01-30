@@ -72,12 +72,24 @@ h1 {
 
 p {
   font-size: 1.8rem;
+  text-align: center;
+}
+
+img {
+  max-width: 75%;
 }
 
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
 .hidden {
   display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
@@ -115,4 +127,5 @@ p {
     padding: 1rem;
     text-align: center;
   }
+
 }
