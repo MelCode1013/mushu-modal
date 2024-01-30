@@ -15,21 +15,37 @@
     <p> I'm Mushu, a rescue scarlet macaw. Click below to learn more about me</p>
   </section>
   <section class="buttons-container">
-    <button class="show-modal">Show modal 1</button>
-    <button class="show-modal">Show modal 2</button>
-    <button class="show-modal">Show modal 3</button>
+    <button data-modal-target="#modal1" class="show-modal-1">Background</button>
+    <button data-modal-target="#modal2" class="show-modal-2">Vocabulary</button>
+    <button data-modal-target="#modal3" class="show-modal-3">That beak!</button>
   </section>
-  <div class="modal hidden">
+  <div id="modal1" class="modal hidden">
     <button class="close-modal">&times;</button>
-    <h1>I'm a modal window 😍</h1>
+    <h1>Loss of feathers</h1>
+    <img src="./img/Mushu-3.png" alt="close up image of scarlet macaw">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.
+      Before Mushu came to my home, he broke his foot. This caused immense stress and he began plucking his feathers.
+      After he healed, the "bad habit" stuck. Like nail biting, he finds comfort in breaking off his feathers. He still
+      has some follicles so feathers continue to grow in.
+    </p>
+  </div>
+  <div id="modal2" class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <h1>What a talker!</h1>
+    <img src="./img/Mushu-1.png" alt="close up image of scarlet macaw">
+    <p>
+      Mushu has a vast vocabulary. He says "Alexa", "Hi", "Hello", "What happened?", "Ozzie", "Oh", "Wow", and he laughs
+      too!
+    </p>
+  </div>
+  <div id="modal3" class="modal hidden">
+    <button class="close-modal">&times;</button>
+    <h1>Yup, THAT beak.</h1>
+    <img src="./img/Mushu-2.png" alt="close up image of scarlet macaw">
+    <p>
+      Macaws are NOT beginner birds. Their beaks can generate a pressure of 300+ psi with ONE bite. They could easily
+      break your finger with enough pressure. So while he looks cute, do your research and above all else...Adopt -
+      Don't shop!
     </p>
   </div>
   <div class="overlay hidden"></div>
